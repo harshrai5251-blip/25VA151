@@ -1,95 +1,108 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>E-commerce Product Page</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GitHub Registration</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #0d1117;
+            color: #c9d1d9;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+        }
 
-  <style>
-    body {
-      font-family: Arial, sans-serif;
-      background-color: #f9f9f9;
-      margin: 0;
-      padding: 0;
-    }
+        .container {
+            background-color: #161b22;
+            padding: 40px;
+            border-radius: 8px;
+            width: 350px;
+            box-shadow: 0 0 10px rgba(0,0,0,0.4);
+        }
 
-    .container {
-      width: 80%;
-      margin: 40px auto;
-      background-color: #fff;
-      border: 2px solid #ddd;
-      border-radius: 10px;
-      padding: 20px;
-      box-shadow: 0 0 10px rgba(0,0,0,0.1);
-    }
+        .container h2 {
+            text-align: center;
+            color: #58a6ff;
+        }
 
-    .product {
-      display: flex;
-      align-items: center;
-      gap: 30px;
-    }
+        label {
+            display: block;
+            margin-top: 15px;
+            font-weight: bold;
+        }
 
-    .product img {
-      width: 250px;
-      height: 250px;
-      border: 2px solid #ccc;
-      border-radius: 10px;
-      padding: 10px;
-      background-color: #f5f5f5;
-    }
+        input {
+            width: 100%;
+            padding: 10px;
+            margin-top: 5px;
+            border: 1px solid #30363d;
+            border-radius: 5px;
+            background-color: #0d1117;
+            color: #c9d1d9;
+        }
 
-    .details {
-      max-width: 600px;
-    }
+        input:focus {
+            border-color: #58a6ff;
+            outline: none;
+        }
 
-    .details h2 {
-      color: #333;
-      font-size: 28px;
-      margin-bottom: 10px;
-    }
+        button {
+            width: 100%;
+            padding: 10px;
+            margin-top: 20px;
+            background-color: #238636;
+            color: white;
+            font-size: 16px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
 
-    .details p {
-      color: #555;
-      line-height: 1.6;
-      margin-bottom: 10px;
-    }
+        button:hover {
+            background-color: #2ea043;
+        }
 
-    .price {
-      color: #e91e63;
-      font-size: 22px;
-      font-weight: bold;
-      margin-bottom: 15px;
-    }
+        .login-link {
+            text-align: center;
+            margin-top: 15px;
+            font-size: 14px;
+        }
 
-    button {
-      background-color: #28a745;
-      color: white;
-      border: none;
-      padding: 12px 25px;
-      font-size: 16px;
-      border-radius: 8px;
-      cursor: pointer;
-    }
+        .login-link a {
+            color: #58a6ff;
+            text-decoration: none;
+        }
 
-    button:hover {
-      background-color: #218838;
-    }
-  </style>
+        .login-link a:hover {
+            text-decoration: underline;
+        }
+    </style>
 </head>
 <body>
 
-  <div class="container">
-    <div class="product">
-      <img src="https://via.placeholder.com/250" alt="Product Image">
-      
-      <div class="details">
-        <h2>Wireless Headphones</h2>
-        <p>Experience high-quality sound with noise cancellation. Comfortable design and long battery life make these headphones perfect for everyday use.</p>
-        <p class="price">₹2,499</p>
-        <button>Add to Cart</button>
-      </div>
+    <div class="container">
+        <h2>Sign up for GitHub</h2>
+        <form action="#" method="post">
+            <label for="username">Username</label>
+            <input type="text" id="username" name="username" placeholder="Enter your username" required>
+
+            <label for="email">Email address</label>
+            <input type="email" id="email" name="email" placeholder="Enter your email" required>
+
+            <label for="password">Password</label>
+            <input type="password" id="password" name="password" placeholder="Create a password" required>
+
+            <button type="submit">Sign up</button>
+        </form>
+
+        <div class="login-link">
+            Already have an account? <a href="#">Sign in →</a>
+        </div>
     </div>
-  </div>
 
 </body>
 </html>
