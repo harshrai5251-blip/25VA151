@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="project.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+</head>
+<body>  
+<h1  >SALESFORCE</h1>
+<div class="item" id="box1">
+    <ul>
+        <li class="dabha"><a href="https://www.salesforce.com/in/">HOMEN PAGE</a></li>
+        <li class="dabha">MY ORDER</li>
+        <li class="dabha">CONTACT</li>
+        <li class="dabha">ABOUT US</li>
+        <li class="dabha">ACCOUNTS</li>
+        <li class="dabha">FILES</li>
+        <li class="dabha">TASKS</li>
+        <li class="dabha">LEADS</li>
+        <li class="dabha">OPPORTUNITIES</li>
+    </ul>
+</div>
+<label for="name" style="background-color: yellow;" class="box2">🔍</label>
+<input type="text" id="name"  placeholder="SEARCH" class="box2"><button class="dot">•••</button>
+
+<div class="container"> 
+  <div class="item" id="item-1"></div>
+  <div class="item" id="item-2"></div>
+  <div class="item" id="item-3"></div>
+  <div class="item" id="item-4"></div>
+</div>
+
+<div class="container2">
+    <div class="price" id="price1">
+        <p >RS- <strike>99,000</strike></p><button class="button">RS- 87,000</button></div>
+
+    <div class="price" id="price2">
+        <p >RS- <strike>99,000</strike></p><button class="button">RS- 87,000</button ></div>
+
+    <div class="price" id="price3">
+        <p >RS- <strike>99,000</strike></p><button class="button">RS- 87,000</button></div>  
+
+   <div class="price" id="price4"><p >RS- <strike>99,000</strike></p><button class="button">RS- 87,000</button></div>
+</div>
+</body>
+</html>
